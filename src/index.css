@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.p-field {
+  margin-bottom: 1rem;
+}
+
+.main {
+  min-height: calc(100vh - 12rem);
+}
