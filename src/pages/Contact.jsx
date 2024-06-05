@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import MainLayout from "../layouts/MainLayout";
+import { Panel } from "primereact/panel";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <MainLayout>
+      {" "}
+      <Panel header="Contact" className="mb-5"></Panel>
+    </MainLayout>
+  );
+};
 
-export default Contact
+export default Contact;

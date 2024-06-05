@@ -10,7 +10,7 @@ export const MenuBar = () => {
     {
       label: "Home",
       icon: <RiHomeLine />,
-      command: () => navigate("/dashboard"),
+      command: () => navigate("/"),
     },
     {
       label: "About",

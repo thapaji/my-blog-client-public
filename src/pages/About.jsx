@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import MainLayout from "../layouts/MainLayout";
+import { Panel } from "primereact/panel";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <MainLayout>
+      {" "}
+      <Panel header="About" className="mb-5"></Panel>
+    </MainLayout>
+  );
+};
 
-export default About
+export default About;

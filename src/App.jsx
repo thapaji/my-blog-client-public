@@ -14,9 +14,9 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" component={<About />} />
-        <Route path="/blogs" component={<Blog />} />
-        <Route path="/contact" component={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blogs" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Navigate to="/not-found" />} />
         <Route path="/not-found" element={<NotFound />} />
       </Routes>
