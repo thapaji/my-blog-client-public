@@ -27,26 +27,11 @@ export const Footer = () => {
   };
 
   return (
-    // <div className="p-menubar justify-content-between px-5 shadow-8">
-
-    //   <Menubar
-    //     model={menuItems.map((item) => ({
-    //       label: (
-    //         <>
-    //           {item.icon} {/* Render icon */}
-    //           <span>{item.label}</span> {/* Render label */}
-    //         </>
-    //       ),
-    //       command: () => handleMenuItemClick(item.url),
-    //     }))}
-    //     className="border-none"
-    //   />
-    // </div>
     <div className="flex p-5 shadow-8 justify-content-between align-items-center">
       <div>
         &copy;{" "}
         <a href="https://sujanthapa.dev" target="_blank" rel="noopener noreferrer">
-          Sujan
+          Sujan. All rights reserved.
         </a>
         {" " + new Date().getFullYear() + ". "}
         Made with lots of &hearts; &hearts; &hearts;
