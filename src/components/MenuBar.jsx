@@ -1,6 +1,6 @@
 import { Menubar } from "primereact/menubar";
 import React from "react";
-import { RiHomeLine, RiLogoutBoxLine, RiUserLine } from "react-icons/ri";
+import {  RiBookLine, RiHomeLine, RiMailLine, RiUserLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 
 export const MenuBar = () => {
@@ -13,13 +13,19 @@ export const MenuBar = () => {
       command: () => navigate("/dashboard"),
     },
     {
-      label: "Profile",
+      label: "About",
       icon: <RiUserLine />,
-      command: () => navigate("/profile"),
+      command: () => navigate("/about"),
     },
     {
-      label: "Signout",
-      icon: <RiLogoutBoxLine />,
+      label: "Blogs",
+      icon: <RiBookLine />,
+      command: () => navigate("/blogs"),
+    },
+    {
+      label: "Contact",
+      icon: <RiMailLine />,
+      command: () => navigate("/contact"),
     },
   ];
 
